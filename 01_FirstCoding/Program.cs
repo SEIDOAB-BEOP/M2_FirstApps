@@ -15,4 +15,12 @@ for (int i = 0; i < 4; i++)
     System.Console.WriteLine();
 }
 
+MyMethod("Martin");
+MyMethod("Severus");
 Console.WriteLine("Program End!");
+
+
+static void MyMethod(string s)
+{
+    System.Console.WriteLine($"Hello {s}");
+}
