@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_struct", "04_struct\04_s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_struct_array", "05_struct_array\05_struct_array.csproj", "{FEA4F3B0-EB18-4A82-B67E-05AD7149D98F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_static", "06_static\06_static.csproj", "{54DB0EDF-52B3-4CC8-BC14-CE41773778FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,5 +48,9 @@ Global
 		{FEA4F3B0-EB18-4A82-B67E-05AD7149D98F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEA4F3B0-EB18-4A82-B67E-05AD7149D98F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEA4F3B0-EB18-4A82-B67E-05AD7149D98F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54DB0EDF-52B3-4CC8-BC14-CE41773778FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54DB0EDF-52B3-4CC8-BC14-CE41773778FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54DB0EDF-52B3-4CC8-BC14-CE41773778FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54DB0EDF-52B3-4CC8-BC14-CE41773778FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
