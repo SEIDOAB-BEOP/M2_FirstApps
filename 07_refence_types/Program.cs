@@ -1,4 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("CONSTRUCTORS!");
+stPerson test = new stPerson(){ FirstName = "Martin"};
+System.Console.WriteLine(test);
+
+
+csPerson test1 = new csPerson(){ FirstName = "Martin"};
+System.Console.WriteLine(test1);
+
+
 Console.WriteLine("VALUE TYPE!");
 stPerson p1 = new stPerson(){FirstName="Severus",LastName="Snape"};
 stPerson p2 = p1;
@@ -35,6 +44,12 @@ public struct stPerson
     public string LastName;
 
     public override string ToString() => $"Hi, I'm {FirstName} {LastName}";
+
+    public stPerson()
+    {
+        FirstName = "Max";
+        LastName = "Voldemort";
+    }
 }
 
 public class csPerson
@@ -42,4 +57,10 @@ public class csPerson
     public string FirstName;
     public string LastName;
     public override string ToString() => $"Hi, I'm {FirstName} {LastName}";
+
+    public csPerson()
+    {
+        FirstName = "Hermoine";
+        LastName = "Baggins";
+    }
 }
