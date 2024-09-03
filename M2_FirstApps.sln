@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_refence_types", "07_refe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_static_apple", "08_static_apple\08_static_apple.csproj", "{73D6C3CF-3A70-4803-A53B-45A08A2330E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_static_animal", "09_static_animal\09_static_animal.csproj", "{34E5FFC7-483F-43CB-A96A-3C62B303017B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -64,5 +66,9 @@ Global
 		{73D6C3CF-3A70-4803-A53B-45A08A2330E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73D6C3CF-3A70-4803-A53B-45A08A2330E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73D6C3CF-3A70-4803-A53B-45A08A2330E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34E5FFC7-483F-43CB-A96A-3C62B303017B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34E5FFC7-483F-43CB-A96A-3C62B303017B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34E5FFC7-483F-43CB-A96A-3C62B303017B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34E5FFC7-483F-43CB-A96A-3C62B303017B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
