@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_struct_array", "05_struc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_static", "06_static\06_static.csproj", "{54DB0EDF-52B3-4CC8-BC14-CE41773778FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_refence_types", "07_refence_types\07_refence_types.csproj", "{0F67656F-64B3-431C-8E92-DDD34422FF33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_static_apple", "08_static_apple\08_static_apple.csproj", "{73D6C3CF-3A70-4803-A53B-45A08A2330E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -52,5 +56,13 @@ Global
 		{54DB0EDF-52B3-4CC8-BC14-CE41773778FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54DB0EDF-52B3-4CC8-BC14-CE41773778FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54DB0EDF-52B3-4CC8-BC14-CE41773778FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F67656F-64B3-431C-8E92-DDD34422FF33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F67656F-64B3-431C-8E92-DDD34422FF33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F67656F-64B3-431C-8E92-DDD34422FF33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F67656F-64B3-431C-8E92-DDD34422FF33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73D6C3CF-3A70-4803-A53B-45A08A2330E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73D6C3CF-3A70-4803-A53B-45A08A2330E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73D6C3CF-3A70-4803-A53B-45A08A2330E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73D6C3CF-3A70-4803-A53B-45A08A2330E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
