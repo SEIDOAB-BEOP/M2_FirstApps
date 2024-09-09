@@ -34,11 +34,19 @@ for (enPlayingCardColor c = enPlayingCardColor.Spade; c <= enPlayingCardColor.Di
     }
 }
 
-
 for (int j = 0; j < deck.Length; j++)
 {
     System.Console.WriteLine(deck[j]);
 }
+
+System.Console.WriteLine("Random Card");
+var rnd = new Random();
+for (int k = 0; k < 10; k++)
+{
+    var idx = rnd.Next(deck.Length);
+    System.Console.WriteLine(deck[idx]);
+}
+
 
 
 public enum enAnimalKind {dog, cat, bird, fish}
