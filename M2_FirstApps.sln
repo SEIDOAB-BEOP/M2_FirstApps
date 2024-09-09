@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_static_apple", "08_stati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_static_animal", "09_static_animal\09_static_animal.csproj", "{34E5FFC7-483F-43CB-A96A-3C62B303017B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_menu", "15_menu\15_menu.csproj", "{0401EFD7-3E73-433C-84E0-4653761F5011}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "seedGenerator", "seedGenerator\seedGenerator.csproj", "{35A8293B-3222-466E-9C00-2ADB0F66AE62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -70,5 +74,13 @@ Global
 		{34E5FFC7-483F-43CB-A96A-3C62B303017B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34E5FFC7-483F-43CB-A96A-3C62B303017B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34E5FFC7-483F-43CB-A96A-3C62B303017B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0401EFD7-3E73-433C-84E0-4653761F5011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0401EFD7-3E73-433C-84E0-4653761F5011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0401EFD7-3E73-433C-84E0-4653761F5011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0401EFD7-3E73-433C-84E0-4653761F5011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35A8293B-3222-466E-9C00-2ADB0F66AE62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35A8293B-3222-466E-9C00-2ADB0F66AE62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35A8293B-3222-466E-9C00-2ADB0F66AE62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35A8293B-3222-466E-9C00-2ADB0F66AE62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
