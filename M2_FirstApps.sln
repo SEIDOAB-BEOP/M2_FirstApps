@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_menu", "15_menu\15_menu.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "seedGenerator", "seedGenerator\seedGenerator.csproj", "{35A8293B-3222-466E-9C00-2ADB0F66AE62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_enum_string", "14_enum_string\14_enum_string.csproj", "{D76E236B-07BE-4792-B04D-4AB1FCFEC6E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_enum", "10_enum\10_enum.csproj", "{12380580-E88D-4339-9871-59FBD131154C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -82,5 +86,13 @@ Global
 		{35A8293B-3222-466E-9C00-2ADB0F66AE62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35A8293B-3222-466E-9C00-2ADB0F66AE62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35A8293B-3222-466E-9C00-2ADB0F66AE62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D76E236B-07BE-4792-B04D-4AB1FCFEC6E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D76E236B-07BE-4792-B04D-4AB1FCFEC6E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D76E236B-07BE-4792-B04D-4AB1FCFEC6E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D76E236B-07BE-4792-B04D-4AB1FCFEC6E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12380580-E88D-4339-9871-59FBD131154C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12380580-E88D-4339-9871-59FBD131154C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12380580-E88D-4339-9871-59FBD131154C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12380580-E88D-4339-9871-59FBD131154C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
