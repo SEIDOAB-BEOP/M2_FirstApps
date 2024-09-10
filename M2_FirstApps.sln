@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_loops", "11_loops\11_loo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_console", "12_console\12_console.csproj", "{8C4676C4-333E-4167-97AE-F1BD07D9B2B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_superconsole", "13_superconsole\13_superconsole.csproj", "{3044CD33-D634-4A4E-AFFE-D728F106A2FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -106,5 +108,9 @@ Global
 		{8C4676C4-333E-4167-97AE-F1BD07D9B2B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C4676C4-333E-4167-97AE-F1BD07D9B2B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C4676C4-333E-4167-97AE-F1BD07D9B2B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3044CD33-D634-4A4E-AFFE-D728F106A2FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3044CD33-D634-4A4E-AFFE-D728F106A2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3044CD33-D634-4A4E-AFFE-D728F106A2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3044CD33-D634-4A4E-AFFE-D728F106A2FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,58 +1,47 @@
-﻿//Deklarera en array av heltal som innehåler värdena 1,2,3,4,5
-int[] ints = {1,2,3,4,5};
+﻿// See https://aka.ms/new-console-template for more information
 
-//en for loop som loopar igenom ints och skriver ut varje tal
-System.Console.WriteLine("For");
-for (int i = 0; i < ints.Length; i++)
+
+string _input = null;
+bool bOk = false;
+while (!bOk)
 {
-    if (ints[i] == 1)
+    Console.WriteLine("Enter you name!");
+    _input = System.Console.ReadLine();
+    if (!string.IsNullOrEmpty(_input))
     {
-        continue;
+        bOk = true;
     }
-
-    ints[i] = ints[i] * 2;    
-    //ints[i] *= 2;
-    System.Console.WriteLine(ints[i]);
-
-    if(ints[i] == 6)
+    else
     {
-        break;
+        System.Console.WriteLine("Whaat?...try again");
     }
 }
 
-System.Console.WriteLine("Foreach");
-//en foreach loop som loopar igenom och skiriiver ut varje tal
-foreach (var item in ints)
+string _name = _input;
+System.Console.WriteLine($"Hello {_name}");
+
+int _age = 0;
+bOk = false;
+while (!bOk)
 {
-    //item *= 2;
-    System.Console.WriteLine(item);
-    if(item == 6)
+    Console.WriteLine("How old are you?");
+    _input = System.Console.ReadLine();
+    if (int.TryParse(_input, out _age))
     {
-        break;
+        bOk = true;
+    }
+    else
+    {
+        System.Console.WriteLine("Whaat?...try again");
     }
 }
 
-System.Console.WriteLine("While1");
-int j = 0;
-while (j < ints.Length)
+
+if (_age >30)
 {
-    System.Console.WriteLine(ints[j]);
-    j++;
+    System.Console.WriteLine($"{_name}, you are {_age} years old!");
 }
-
-System.Console.WriteLine("While2");
-int l = 0;
-while (ints[l] != 5)
+else
 {
-    System.Console.WriteLine(ints[l]);
-    l++;
+    System.Console.WriteLine($"{_name}, you are {_age} years young!");
 }
-
-System.Console.WriteLine("do while");
-int k = 0;
-do
-{
-    System.Console.WriteLine(ints[k]);
-    k++;
-
-} while (ints[k] != 5);
