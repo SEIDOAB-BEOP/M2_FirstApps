@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_enum_string", "14_enum_s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_enum", "10_enum\10_enum.csproj", "{12380580-E88D-4339-9871-59FBD131154C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_loops", "11_loops\11_loops.csproj", "{17CA84DC-16EA-47AA-AD68-0E043BAF96CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_console", "12_console\12_console.csproj", "{8C4676C4-333E-4167-97AE-F1BD07D9B2B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -94,5 +98,13 @@ Global
 		{12380580-E88D-4339-9871-59FBD131154C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12380580-E88D-4339-9871-59FBD131154C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12380580-E88D-4339-9871-59FBD131154C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17CA84DC-16EA-47AA-AD68-0E043BAF96CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17CA84DC-16EA-47AA-AD68-0E043BAF96CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17CA84DC-16EA-47AA-AD68-0E043BAF96CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17CA84DC-16EA-47AA-AD68-0E043BAF96CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C4676C4-333E-4167-97AE-F1BD07D9B2B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C4676C4-333E-4167-97AE-F1BD07D9B2B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C4676C4-333E-4167-97AE-F1BD07D9B2B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C4676C4-333E-4167-97AE-F1BD07D9B2B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
