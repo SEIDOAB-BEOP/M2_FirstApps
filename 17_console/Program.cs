@@ -16,7 +16,7 @@ static void ReadNameAge(out int age, out string name)
     bool bOk = false;
     while (!bOk)
     {
-        Console.WriteLine("Enter you name;age!");
+        Console.WriteLine("Enter you name;age");
         string _input = System.Console.ReadLine();
 
         string[] _inputs = _input.Split(';');
